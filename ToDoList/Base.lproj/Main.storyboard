@@ -119,15 +119,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5TK-kA-SNx">
-                                <rect key="frame" x="154" y="195" width="67" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5TK-kA-SNx">
+                                <rect key="frame" x="154" y="211" width="67" height="30"/>
                                 <state key="normal" title="Complete"/>
                                 <connections>
                                     <action selector="completeTapped:" destination="yMH-eu-C7U" eventType="touchUpInside" id="Evj-lT-Cjk"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzN-5W-bEE">
-                                <rect key="frame" x="5" y="136" width="365" height="51"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzN-5W-bEE">
+                                <rect key="frame" x="5" y="119" width="365" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -138,6 +138,7 @@
                             <constraint firstItem="UBq-aB-UpX" firstAttribute="trailing" secondItem="pzN-5W-bEE" secondAttribute="trailing" constant="5" id="35G-Gu-Bcv"/>
                             <constraint firstItem="pzN-5W-bEE" firstAttribute="centerX" secondItem="Ucw-Mp-mfy" secondAttribute="centerX" id="Ohh-MQ-StV"/>
                             <constraint firstItem="pzN-5W-bEE" firstAttribute="leading" secondItem="UBq-aB-UpX" secondAttribute="leading" constant="5" id="TH9-Ja-AIX"/>
+                            <constraint firstItem="pzN-5W-bEE" firstAttribute="top" secondItem="UBq-aB-UpX" secondAttribute="top" constant="55" id="bnE-bc-84O"/>
                             <constraint firstItem="5TK-kA-SNx" firstAttribute="centerX" secondItem="Ucw-Mp-mfy" secondAttribute="centerX" id="hLC-AM-kMg"/>
                             <constraint firstItem="5TK-kA-SNx" firstAttribute="top" secondItem="pzN-5W-bEE" secondAttribute="bottom" constant="50" id="mC6-Jd-OUA"/>
                         </constraints>

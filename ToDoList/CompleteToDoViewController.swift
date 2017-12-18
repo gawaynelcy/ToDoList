@@ -10,6 +10,9 @@ import UIKit
 
 class CompleteToDoViewController: UIViewController {
 
+    var previousVC = ToDoTableViewController()
+    var selectedToDo = ToDo()
+    
     @IBOutlet weak var titleLabel: UILabel!
     
     override func viewDidLoad() {
