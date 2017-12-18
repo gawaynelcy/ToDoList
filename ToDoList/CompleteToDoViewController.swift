@@ -18,9 +18,11 @@ class CompleteToDoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        titleLabel.text = selectedToDo.name
     }
 
     @IBAction func completeTapped(_ sender: Any) {
+        
+        
     }
 }
