@@ -15,6 +15,7 @@
 		2FAEBEDC1FE6887D000DE0A5 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEBEDB1FE6887D000DE0A5 /* ToDoTableViewController.swift */; };
 		2FAEBEDE1FE68A10000DE0A5 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEBEDD1FE68A10000DE0A5 /* ToDo.swift */; };
 		2FAEBEE01FE69312000DE0A5 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEBEDF1FE69312000DE0A5 /* AddToDoViewController.swift */; };
+		2FAEBEE21FE78C8B000DE0A5 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEBEE11FE78C8B000DE0A5 /* CompleteToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2FAEBEDB1FE6887D000DE0A5 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		2FAEBEDD1FE68A10000DE0A5 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		2FAEBEDF1FE69312000DE0A5 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		2FAEBEE11FE78C8B000DE0A5 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2FAEBEC61FE68684000DE0A5 /* AppDelegate.swift */,
 				2FAEBEDB1FE6887D000DE0A5 /* ToDoTableViewController.swift */,
 				2FAEBEDF1FE69312000DE0A5 /* AddToDoViewController.swift */,
+				2FAEBEE11FE78C8B000DE0A5 /* CompleteToDoViewController.swift */,
 				2FAEBEDD1FE68A10000DE0A5 /* ToDo.swift */,
 				2FAEBECA1FE68684000DE0A5 /* Main.storyboard */,
 				2FAEBED01FE68684000DE0A5 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 				2FAEBEDC1FE6887D000DE0A5 /* ToDoTableViewController.swift in Sources */,
 				2FAEBEE01FE69312000DE0A5 /* AddToDoViewController.swift in Sources */,
 				2FAEBEC71FE68684000DE0A5 /* AppDelegate.swift in Sources */,
+				2FAEBEE21FE78C8B000DE0A5 /* CompleteToDoViewController.swift in Sources */,
 				2FAEBEDE1FE68A10000DE0A5 /* ToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
