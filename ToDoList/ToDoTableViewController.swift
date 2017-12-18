@@ -16,28 +16,30 @@ class ToDoTableViewController: UITableViewController {
         super.viewDidLoad()
 
         toDos = createToDos()
-        
+ 
     }
+    
 
     func createToDos() -> [ToDo] {
-        
+ 
         let eggs = ToDo()
-        eggs.name = "Buy eggs"
+        eggs.name = "Buy Eggs"
         eggs.important = true
         
         let dog = ToDo()
-        dog.name = "Walk the dog!"
+        dog.name = "Walk the dog"
         
         let cheese = ToDo()
         cheese.name = "Eat Cheese"
         
-        return [eggs, dog, cheese]
-        
+        return [eggs,dog,cheese]
+ 
     }
 
+ 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 
-        return toDos.count
+        return toDos.count //just returning the number of rows to be displayed/selectable in the table view
     }
 
 
@@ -47,7 +49,7 @@ class ToDoTableViewController: UITableViewController {
         let toDo = toDos[indexPath.row]
         
         if toDo.important {
-            cell.textLabel?.text = toDo.name + " 📌 "
+            cell.textLabel?.text = "📌 " + toDo.name
         } else {
             cell.textLabel?.text = toDo.name
         }
